@@ -594,6 +594,8 @@ header .navbar {
 
 footer {
 	text-align: center;
+	background-color: var(--primary-color);
+	color: var(--color-white);
 }
 
 footer .inner-content {
@@ -602,13 +604,14 @@ footer .inner-content {
 	padding: 60px 0px;
 }
 
-footer .inner-content p {
+footer p {
 	text-transform: uppercase;
+	color: var(--color-white);
 }
 
-footer .inner-content p a {
-	color: var(--primary-color);
+footer a {
 	margin-left: 3px;
+	color: var(--color-white);
 }
 
 

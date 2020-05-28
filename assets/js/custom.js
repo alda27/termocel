@@ -28,6 +28,7 @@ jQuery( document ).ready(function( $ ) {
 
           if (scroll >= box - header) {
             $("header").addClass("background-header");
+           
           } else {
             $("header").removeClass("background-header");
           }
